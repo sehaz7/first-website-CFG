@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+html, body{
+    margin: 0;
+    font-family: 'Domine', serif;
+    height: 100%;
+    background-image: linear-gradient(#59253A,#59253A,#895061);
+    text-align: center;
+    background-size: 100%;
+    
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+    background: black;
+    position: relative;
+    z-index: 10;
+}
+nav div {
+    color: #895061;
+}
+.site-title{
+    font-size: 1.75rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    visibility: visible;
+}
+.site-title2{
+    font-size: 0.75rem;
+    line-height: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 2%;
+}
+nav ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0 2% auto 0;
+    text-align: right;
+    max-width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #895061;
+}
+
+.content{
+    max-width: 800px;
+    height: 90%;
+    margin: auto;
+    padding-top: 10%;
+    text-align: left;
+}
+.content h1{
+    display: block;
+    color: white;
+    font-size: 4em;
+    font-weight: 900;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content h2{
+    display: block;
+    font-size: 2em;
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content p{
+    display: block;
+    color: #895061;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.profile-pic{
+    width: 400px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+    object-position: 50% 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.profile-pic img{
+    margin-left: -20%;
+    height: 100%;
+    width: auto;
+}
+
+button {
+    color:#fff;
+    background-color: #2D4159;
+    border:2px solid;
+    border-radius:10px;
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    font-weight:600;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+
+    width: 100%;    
+    background-color: black;
+    color: #895061;
+    height: 30px;
+    line-height: 30px;
+}
+.active {
+    background-color: #2D4159;
+    height: 65px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content2{
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    height: 90%;
+}
+.content2 h1{
+    display: block;
+    color: white;
+    font-size: 4em;
+    font-weight: 900;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.gallery {
+    background-color: #2D4159;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 10px 20px;
+    text-align: center;
+    color: #895061;
+}
+* {
+    box-sizing: border-box;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px){
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
