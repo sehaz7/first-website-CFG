@@ -3,27 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Sehaz's Website</title>
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <!--The header element represents introductory content, typically a group of introductory or navigational aids. -->
-   <header>
-     <a href="../index.html">Home</a>
-     <a href="hobbies.html">Hobbies</a>
-     <a href="contact.html">Contact</a>
-   </header>
-   <h1>Hobbies</h1>
-   <h3>Painting (Acrylic and Watercolor)</h3>
-   <p>My painting of Planet Earth...</p>
-   <img src="../img/earthpainting.jpg" width="290" height="260" alt="Planet Earth Painting">
-   <h3>Reading</h3>
-   <p>I am currently reading...</p>
-   <img src="../img/novel.jpg" alt="Doctor Sleep">
-   <h3>Traveling</h3>
-   <p>My trip to Paris...</p>
-   <img src="../img/paris.JPG" width="300" height="400" alt="Paris Trip">
-   <h3>Anything Space!</h3>
-   <p>My team's model rocket for a rocket competition...</p>
-   <img src="../img/rocket.JPG" width="300" height="400" alt="Model Rocket">
+    <header>
+      <nav>
+        <div class="site-title">Sehaz Dayal</div>
+        <div class="site-title2">Biomedical/Electrical Engineer</div>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><div class="active"><a href="hobbies.html">Hobbies</a></div></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+  
+      </nav>
+    </header>
+
+    <div class="content2">
+      <h1>Hobbies</h1>
+
+      <div class="responsive">
+        <div class="gallery">
+          <img src="../img/earthpainting.jpg" alt="Planet Earth Painting" width="400" height="400">
+          <div class="desc"><p>Painting</p></div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <img src="../img/novel.jpg" alt="Doctor Sleep" width="400" height="400">
+          <div class="desc"><p>Reading</p></div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <img src="../img/paris.JPG" alt="Paris Trip" width="400" height="400">
+          <div class="desc"><p>Traveling</p></div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <img src="../img/rocket.JPG" alt="Model Rocket" width="400" height="400">
+          <div class="desc"><p>Anything Space!</p></div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
    <footer>Last updated: 29/07/2020</footer>
  </body>
+
+ 
+ 
  </html>
